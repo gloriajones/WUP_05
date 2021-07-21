@@ -10,6 +10,7 @@ require(tidyverse)
 require(tigerstats)
 triUmp <-read.csv(file="triUmpsal.csv",header=TRUE)
 females=filter(triUmp,gender=="F")
+males=filter(triUmp,gender=="M")
 ```
 
 # Introduction
@@ -47,7 +48,11 @@ basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
   
-On the left side is all the people who have aids, but not too many people contracted the disease. In the graph above it also shows how many people were given the drug and how many of them have taken the placebo. 40% have taken the placebo, 60% of the people who contracted the disease have taken the drug, which is supposed to help prevent aids. Most of the people who have taken the drug to prevent aids have contracted the disease anyways, so the drug wasn't very effective. 
+On the left side is all the people who have aids, but not too many people contracted the disease. In the graph above it also shows how many people were given the drug and how many of them have taken the placebo. 40% have taken the placebo, 60% of the people who contracted the disease have taken the drug, which is supposed to help prevent aids. Most of the people who have taken the drug to prevent aids have contracted the disease anyways, so the drug wasn't very effective.  
+In the graph with males only it showed 40% of males took the drug and 70% of males took the placebo. The drug had a little affect on those who took it.  
+  
+  
+  
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
