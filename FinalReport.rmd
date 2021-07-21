@@ -80,3 +80,5 @@ The null hypothesis is equal to one, therefore we cal reject the null hypothesis
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+  
+At the begining of the report we had to change a few things and do some data manipulation to get the females only graph. We also were able to see a males only graph, and an overall graph of a mix of people. Dypler was used to filter certain rows, we didn't use select because we didn't need all the columns. We just needed to figure out if the drug was effective or not. We also moved around the x,y axis to get the results we needed.  
